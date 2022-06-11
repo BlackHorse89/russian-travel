@@ -1,6 +1,5 @@
 .intro {
-  width: 690px;
-  min-height: 429px;
+  max-width: 690px;
   margin: 0 0 92px;
   padding: 0 0 0 148px;
 }
@@ -15,7 +14,7 @@
   .intro {
     padding: 0 0 0 24px;
     margin-bottom: 88px;
-    width: 720px;
+    max-width: 720px;
   }
 }
 
@@ -23,7 +22,6 @@
   .intro {
     padding: 0 0 0 16px;
     margin-bottom: 64px;
-    width: 288px;
-    min-height: 754px;
+    max-width: 288px;
   }
 }

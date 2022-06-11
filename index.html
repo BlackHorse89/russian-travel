@@ -12,10 +12,10 @@
 <body class="page">
   <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="Логотип">
-    <nav class="header__menu">
-      <a class="header__lang-link" href="#">Ru</a>
-      <a class="header__lang-link" href="#">En</a>
-    </nav>
+    <ul class="header__menu">
+      <li class="header__list"><a class="header__lang-link" href="#">Ru</a></li>
+      <li class="header__list"><a class="header__lang-link" href="#">En</a></li>
+    </ul>
   </header>
   <main class="content page__content">
     <section class="lead">
@@ -33,26 +33,28 @@
         без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая
         мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
         стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-      <p class="intro__list">Часовых поясов 11
-        Объектов природного наследия ЮНЕСКО 12
-        Объектов культурного наследия ЮНЕСКО 16
-        Природных заповедников 105
-        Аэропортов 241</p>
+      <ul class="intro__list">
+        <li class="intro__item">Часовых поясов 11</li>
+        <li class="intro__item">Объектов природного наследия ЮНЕСКО 12</li>
+        <li class="intro__item">Объектов культурного наследия ЮНЕСКО 16</li>
+        <li class="intro__item">Природных заповедников 105</li>
+        <li class="intro__item">Аэропортов 241</li>
+      </ul>
     </section>
 
     <section class="gallery">
-      <img class="gallery__image" src="./images/photo-grid-train.jpg" alt="пейзаж">
-      <img class="gallery__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="пейзаж">
-      <img class="gallery__image" src="./images/photo-grid-tuman.jpg" alt="пейзаж">
-      <img class="gallery__image" src="./images/photo-grid-sochi.jpg" alt="пейзаж">
-      <img class="gallery__image" src="./images/photo-grid-arisa.jpg" alt="пейзаж">
-      <img class="gallery__image" src="./images/photo-grid-baikal.jpg" alt="пейзаж">
-      <img class="gallery__image" src="./images/photo-grid-elbrus.jpg" alt="пейзаж">
-      <img class="gallery__image" src="./images/photo-grid-kondratiev.jpg" alt="пейзаж">
-      <img class="gallery__image" src="./images/photo-grid-kamchatka-1.jpg" alt="пейзаж">
-      <img class="gallery__image" src="./images/photo-grid-kamchatka-2.jpg" alt="пейзаж">
-      <img class="gallery__image" src="./images/photo-grid-baikal-2.jpg" alt="пейзаж">
-      <img class="gallery__image" src="./images/photo-grid-ergaki.jpg" alt="пейзаж">
+      <img class="gallery__image" src="./images/photo-grid-train.jpg" alt="вид из окна поезда">
+      <img class="gallery__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="горы в облаках">
+      <img class="gallery__image" src="./images/photo-grid-tuman.jpg" alt="волк на сенокосе">
+      <img class="gallery__image" src="./images/photo-grid-sochi.jpg" alt="деревья в тумане на горной местности">
+      <img class="gallery__image" src="./images/photo-grid-arisa.jpg" alt="машина на толстом льду">
+      <img class="gallery__image" src="./images/photo-grid-baikal.jpg" alt="вид на горы и озеро и пляж">
+      <img class="gallery__image" src="./images/photo-grid-elbrus.jpg" alt="острые скалы">
+      <img class="gallery__image" src="./images/photo-grid-kondratiev.jpg" alt="пешеходный переход в странном месте">
+      <img class="gallery__image" src="./images/photo-grid-kamchatka-1.jpg" alt="вид с верху на рельеф">
+      <img class="gallery__image" src="./images/photo-grid-kamchatka-2.jpg" alt="вид у поножья большой горы">
+      <img class="gallery__image" src="./images/photo-grid-baikal-2.jpg" alt="берег озера переходщий в горы">
+      <img class="gallery__image" src="./images/photo-grid-ergaki.jpg" alt="облака спустились на гору">
     </section>
 
     <section class="places">
@@ -79,7 +81,7 @@
           <p class="place__url-heading">URL</p>
           <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
         </div>
-        <img class="place__image" src="./images/place-kolsky.jpg" alt="пейзашь">
+        <img class="place__image" src="./images/place-kolsky.jpg" alt="горы в снегу">
         <div class="place__text">
           <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. 
           Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -96,7 +98,7 @@
           <p class="place__url-heading">URL</p>
           <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
         </div>
-        <img class="place__image" src="./images/place-altai.jpg" alt="пейзашь">
+        <img class="place__image" src="./images/place-altai.jpg" alt="хвойный лес">
         <div class="place__text">
           <p class="place__paragraph">Алтай — одно из красивейших мест в России.
           В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и
@@ -113,7 +115,7 @@
           <p class="place__url-heading">URL</p>
           <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
         </div>
-        <img class="place__image" src="./images/place-winter-baikal.jpg" alt="пейзашь">
+        <img class="place__image" src="./images/place-winter-baikal.jpg" alt="лед">
         <div class="place__text">
           <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро 
           в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
@@ -128,7 +130,7 @@
           <p class="place__url-heading">URL</p>
           <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
         </div>
-        <img class="place__image" src="./images/place-karelia.jpg" alt="пейзашь">
+        <img class="place__image" src="./images/place-karelia.jpg" alt="река">
         <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница 
           не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за 
           непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому 
