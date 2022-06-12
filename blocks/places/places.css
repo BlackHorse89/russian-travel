@@ -1,8 +1,7 @@
 .places {
-  margin: 92px 0 66px;
+  margin: 92px 0 92px;
   display: grid;
   grid-template-rows: 660px  584px  584px  660px 584px;
-  grid-column: 1fr;
   row-gap: 80px;
   padding: 0 148px;
 }
@@ -17,6 +16,7 @@
 
 @media screen and (max-width: 984px) {
   .places {
+    margin: 88px 0 90px;
     grid-template-rows: repeat(5, 1fr);
     padding: 0 24px;
     row-gap: 73px;
@@ -25,6 +25,7 @@
 
 @media screen and (max-width: 568px) {
   .places {
+    margin: 64px 0 66px;
     padding: 0;
     row-gap: 50px;
     grid-template-rows: min-content;
